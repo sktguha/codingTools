@@ -25,9 +25,7 @@ ioHook.on("keypress", function(e){
                 name = name.split(".")[0];
                 console.log("got path ", name);
                 robotjs.keyTap("f", ["control", "shift"]);
-                name.split("").forEach(function(key){
-                    robotjs.keyTap(key);
-                } );
+                robotjs.typeString(name);
                 console.log("sent search command for ", name);
             }, 1000);
         }
