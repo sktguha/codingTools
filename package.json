@@ -1,0 +1,20 @@
+{
+  "name": "codingtools",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "esprima": "^4.0.0",
+    "node-run-cmd": "^1.0.1"
+  },
+  "devDependencies": {
+    "clipboardy": "^1.2.3",
+    "node-key-sender": "^1.0.10",
+    "robotjs": "^0.5.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Saikat Guha",
+  "license": "ISC"
+}
