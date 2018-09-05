@@ -5,6 +5,7 @@
   "main": "index.js",
   "dependencies": {
     "esprima": "^4.0.0",
+    "iohook": "^0.2.0",
     "node-run-cmd": "^1.0.1"
   },
   "devDependencies": {
